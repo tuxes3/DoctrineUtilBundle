@@ -12,9 +12,8 @@ use Doctrine\ORM\Mapping as ORM;
 
 /**
  * Class Translation
- * @package Tuxes3\Bundle\DoctrineUtilBundle
  *
- * @ORM\Entity(repositoryClass="TX3\DoctrineUtilBundleEntity\TranslationRepo")
+ * @ORM\Entity(repositoryClass="TX3\DoctrineUtilBundle\Entity\TranslationRepo")
  */
 class Translation
 {

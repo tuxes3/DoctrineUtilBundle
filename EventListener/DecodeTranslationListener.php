@@ -12,6 +12,7 @@ use Doctrine\ORM\Event\LifecycleEventArgs;
 use Doctrine\Common\Annotations\Reader;
 use TX3\DoctrineUtilBundle\Annotations\Translatable;
 use TX3\DoctrineUtilBundle\Entity\Translation;
+use TX3\DoctrineUtilBundle\Entity\TranslationRepo;
 
 
 class DecodeTranslationListener
