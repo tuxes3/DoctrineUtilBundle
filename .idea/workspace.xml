@@ -24,7 +24,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="Tuxes3DoctrineUtilExtension.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DoctrineUtilBundle/DependencyInjection/Tuxes3DoctrineUtilExtension.php">
+        <entry file="file://$PROJECT_DIR$/DependencyInjection/Tuxes3DoctrineUtilExtension.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="2" column="10" selection-start="17" selection-end="17" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="480">
               <folding />
@@ -33,7 +33,7 @@
         </entry>
       </file>
       <file leaf-file-name="Translation.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DoctrineUtilBundle/Entity/Translation.php">
+        <entry file="file://$PROJECT_DIR$/Entity/Translation.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="16" column="32" selection-start="274" selection-end="274" vertical-scroll-proportion="-4.7916665" vertical-offset="50" max-vertical-offset="2415">
               <folding />
@@ -42,7 +42,7 @@
         </entry>
       </file>
       <file leaf-file-name="TranslationRepo.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DoctrineUtilBundle/Entity/TranslationRepo.php">
+        <entry file="file://$PROJECT_DIR$/Entity/TranslationRepo.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="8" column="10" selection-start="104" selection-end="104" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="570">
               <folding />
@@ -51,7 +51,7 @@
         </entry>
       </file>
       <file leaf-file-name="DecodeTranslationListener.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DoctrineUtilBundle/EventListener/DecodeTranslationListener.php">
+        <entry file="file://$PROJECT_DIR$/EventListener/DecodeTranslationListener.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="12" column="4" selection-start="280" selection-end="280" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="1605">
               <folding />
@@ -60,7 +60,7 @@
         </entry>
       </file>
       <file leaf-file-name="EncodeTranslationListener.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DoctrineUtilBundle/EventListener/EncodeTranslationListener.php">
+        <entry file="file://$PROJECT_DIR$/EventListener/EncodeTranslationListener.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="9" column="15" selection-start="156" selection-end="156" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="1230">
               <folding />
@@ -78,7 +78,7 @@
         </entry>
       </file>
       <file leaf-file-name="KernelRequestListener.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DoctrineUtilBundle/EventListener/KernelRequestListener.php">
+        <entry file="file://$PROJECT_DIR$/EventListener/KernelRequestListener.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="8" column="10" selection-start="104" selection-end="104" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="450">
               <folding />
@@ -87,7 +87,7 @@
         </entry>
       </file>
       <file leaf-file-name="SingleTranslationType.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DoctrineUtilBundle/Form/Type/SingleTranslationType.php">
+        <entry file="file://$PROJECT_DIR$/Form/Type/SingleTranslationType.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="8" column="10" selection-start="104" selection-end="104" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="585">
               <folding />
@@ -96,7 +96,7 @@
         </entry>
       </file>
       <file leaf-file-name="TranslationType.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DoctrineUtilBundle/Form/Type/TranslationType.php">
+        <entry file="file://$PROJECT_DIR$/Form/Type/TranslationType.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="8" column="10" selection-start="104" selection-end="104" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="510">
               <folding />
@@ -105,7 +105,7 @@
         </entry>
       </file>
       <file leaf-file-name="services.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DoctrineUtilBundle/Resources/config/services.yml">
+        <entry file="file://$PROJECT_DIR$/Resources/config/services.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="4" column="39" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
               <folding />
@@ -189,20 +189,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tuxes3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tuxes3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DoctrineUtilBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -251,7 +237,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="719" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -259,7 +245,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -290,84 +276,84 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DoctrineUtilBundle/Tuxes3DoctrineUtilBundle.php">
+    <entry file="file://$PROJECT_DIR$/Tuxes3DoctrineUtilBundle.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="33" selection-start="40" selection-end="40" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="225">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DoctrineUtilBundle/Annotations/Translatable.php">
+    <entry file="file://$PROJECT_DIR$/Annotations/Translatable.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="10" selection-start="104" selection-end="104" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="285">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DoctrineUtilBundle/DependencyInjection/Configuration.php">
+    <entry file="file://$PROJECT_DIR$/DependencyInjection/Configuration.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="10" selection-start="17" selection-end="17" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="525">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DoctrineUtilBundle/DependencyInjection/Tuxes3DoctrineUtilExtension.php">
+    <entry file="file://$PROJECT_DIR$/DependencyInjection/Tuxes3DoctrineUtilExtension.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="10" selection-start="17" selection-end="17" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="480">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DoctrineUtilBundle/Entity/Translation.php">
+    <entry file="file://$PROJECT_DIR$/Entity/Translation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="32" selection-start="274" selection-end="274" vertical-scroll-proportion="-4.7916665" vertical-offset="50" max-vertical-offset="2415">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DoctrineUtilBundle/Entity/TranslationRepo.php">
+    <entry file="file://$PROJECT_DIR$/Entity/TranslationRepo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="10" selection-start="104" selection-end="104" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="570">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DoctrineUtilBundle/EventListener/DecodeTranslationListener.php">
+    <entry file="file://$PROJECT_DIR$/EventListener/DecodeTranslationListener.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="4" selection-start="280" selection-end="280" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="1605">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DoctrineUtilBundle/Resources/config/services.yml">
+    <entry file="file://$PROJECT_DIR$/Resources/config/services.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="39" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DoctrineUtilBundle/EventListener/KernelRequestListener.php">
+    <entry file="file://$PROJECT_DIR$/EventListener/KernelRequestListener.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="10" selection-start="104" selection-end="104" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="450">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DoctrineUtilBundle/Form/Type/SingleTranslationType.php">
+    <entry file="file://$PROJECT_DIR$/Form/Type/SingleTranslationType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="10" selection-start="104" selection-end="104" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="585">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DoctrineUtilBundle/Form/Type/TranslationType.php">
+    <entry file="file://$PROJECT_DIR$/Form/Type/TranslationType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="10" selection-start="104" selection-end="104" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="510">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DoctrineUtilBundle/EventListener/EncodeTranslationListener.php">
+    <entry file="file://$PROJECT_DIR$/EventListener/EncodeTranslationListener.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="15" selection-start="156" selection-end="156" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="1230">
           <folding />

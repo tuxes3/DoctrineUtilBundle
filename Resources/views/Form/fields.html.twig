@@ -1,0 +1,20 @@
+{% block translation_widget %}
+    {% spaceless %}
+        <ul class="nav nav-justified nav-tabs">
+            {% set c = 0 %}
+            {% for translation in form.vars.value %}
+                <li {% if c == 0 %}class="active"{% endif %}><a href="#tab{{ c }}" data-toggle="tab">{{ translation.locale | upper }}</a></li>
+                {% set c = c + 1 %}
+            {% endfor %}
+        </ul>
+        <div class="tab-content">
+            {% set c = 0 %}
+            {% for child in form %}
+                <div class="tab-pane {% if c == 0 %}active{% endif %}" id="tab{{ c }}">
+                    {{ form_widget(child) }}
+                </div>
+                {% set c = c + 1 %}
+            {% endfor %}
+        </div>
+    {% endspaceless %}
+{% endblock %}
