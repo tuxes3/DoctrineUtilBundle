@@ -1,0 +1,20 @@
+{
+    "name": "tuxes3/doctrine-util-bundle",
+    "type": "symfony-bundle",
+    "description": "Simple way to translate your entities in forms",
+    "keywords": [ "translation", "form", "entity" ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nicolo Singer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": "~2.3"
+    },
+    "autoload": {
+        "psr-0": { "TX3\\DoctrineUtilBundle": "" }
+    },
+    "target-dir": "TX3/DoctrineUtilBundle"
+}
