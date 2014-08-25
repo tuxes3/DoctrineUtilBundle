@@ -13,4 +13,8 @@ app/config/parameters.ini
 app/config/parameters.yml
 
 # Composer
+<<<<<<< HEAD
 composer.phar
+=======
+composer.phar
+>>>>>>> ca86db126a3ce6cd024553a6b416faa3a06bec6a
