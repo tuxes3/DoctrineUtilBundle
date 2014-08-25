@@ -9,7 +9,7 @@
 namespace TX3\DoctrineUtilBundle\EventListener;
 use Doctrine\ORM\Event\LifecycleEventArgs;
 use Doctrine\Common\Annotations\Reader;
-use TX3\DoctrineUtilBundleAnnotations\Translatable;
+use TX3\DoctrineUtilBundle\Annotations\Translatable;
 
 
 class EncodeTranslationListener

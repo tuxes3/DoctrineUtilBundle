@@ -10,8 +10,8 @@ namespace TX3\DoctrineUtilBundle\EventListener;
 
 use Doctrine\ORM\Event\LifecycleEventArgs;
 use Doctrine\Common\Annotations\Reader;
-use TX3\DoctrineUtilBundleAnnotations\Translatable;
-use TX3\DoctrineUtilBundleEntity\Translation;
+use TX3\DoctrineUtilBundle\Annotations\Translatable;
+use TX3\DoctrineUtilBundle\Entity\Translation;
 
 
 class DecodeTranslationListener
