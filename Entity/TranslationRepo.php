@@ -6,7 +6,7 @@
  * Time: 22:00
  */
 
-namespace TX3\DoctrineUtilBundleEntity;
+namespace TX3\DoctrineUtilBundle\Entity;
 
 
 use Doctrine\ORM\EntityRepository;

@@ -6,7 +6,8 @@
  * Time: 16:41
  */
 
-namespace TX3\DoctrineUtilBundleEventListener;
+namespace TX3\DoctrineUtilBundle\EventListener;
+
 use Doctrine\ORM\Event\LifecycleEventArgs;
 use Doctrine\Common\Annotations\Reader;
 use TX3\DoctrineUtilBundleAnnotations\Translatable;

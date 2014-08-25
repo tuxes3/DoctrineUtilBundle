@@ -6,7 +6,7 @@
  * Time: 18:25
  */
 
-namespace TX3\DoctrineUtilBundleEntity;
+namespace TX3\DoctrineUtilBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 

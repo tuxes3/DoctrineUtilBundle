@@ -1,23 +1,23 @@
 services:
     encode_translatable_listener:
-        class: TX3\DoctrineUtilBundleEventListener\EncodeTranslationListener
+        class: TX3\DoctrineUtilBundle\EventListener\EncodeTranslationListener
         tags:
           - {name: doctrine.event_listener, event: preUpdate}
         arguments: [@annotation_reader, %tuxes3_doctrine_util.config%]
 
     decode_translatable_listener:
-        class: Tuxes3\BundTX3\DoctrineUtilBundleer\DecodeTranslationListener
+        class: TX3\DoctrineUtilBundle\EventListener\DecodeTranslationListener
         tags:
           - {name: doctrine.event_listener, event: postLoad}
         arguments: [@annotation_reader,%tuxes3_doctrine_util.config%]
 
     kernel_request.listener:
-        class: Tuxes3\Bundle\DoctrineTX3\DoctrineUtilBundlequestListener
+        class: TX3\DoctrineUtilBundle\EventListener\KernelRequestListener
         tags:
             - { name: kernel.event_listener, method: onKernelRequest, event: kernel.request }
         arguments: [@decode_translatable_listener, @encode_translatable_listener]
 
     type.translation:
-        class: Tuxes3\Bundle\DoctrineUtilBundle\Form\Type\TranslationType
+        class: TX3\DoctrineUtilBundle\Form\Type\TranslationType
         tags:
             - { name: form.type, alias: translation }

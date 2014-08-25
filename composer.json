@@ -11,7 +11,8 @@
     ],
     "require": {
         "php": ">=5.3.2",
-        "symfony/framework-bundle": ">=2.3"
+        "symfony/framework-bundle": ">=2.3",
+        "doctrine/orm": "~2.2,>=2.2.3"
     },
     "autoload": {
         "psr-0": { "TX3\\DoctrineUtilBundle": "" }

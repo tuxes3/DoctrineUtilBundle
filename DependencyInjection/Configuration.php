@@ -1,6 +1,6 @@
 <?php
 
-namespace TX3\DoctrineUtilBundleDependencyInjection;
+namespace TX3\DoctrineUtilBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

@@ -1,6 +1,6 @@
 <?php
 
-namespace TX3\DoctrineUtilBundleDependencyInjection;
+namespace TX3\DoctrineUtilBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;

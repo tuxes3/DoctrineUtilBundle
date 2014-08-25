@@ -6,7 +6,7 @@
  * Time: 16:44
  */
 
-namespace TX3\DoctrineUtilBundleAnnotations;
+namespace TX3\DoctrineUtilBundle\Annotations;
 
 use Doctrine\Common\Annotations\Annotation;
 

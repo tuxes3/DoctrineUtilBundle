@@ -6,7 +6,7 @@
  * Time: 17:00
  */
 
-namespace TX3\DoctrineUtilBundleForm\Type;
+namespace TX3\DoctrineUtilBundle\Form\Type;
 
 
 use Symfony\Component\Form\AbstractType;

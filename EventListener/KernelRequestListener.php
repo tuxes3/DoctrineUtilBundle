@@ -6,7 +6,7 @@
  * Time: 18:47
  */
 
-namespace TX3\DoctrineUtilBundleEventListener;
+namespace TX3\DoctrineUtilBundle\EventListener;
 
 use Symfony\Component\HttpKernel\Event\GetResponseEvent;
 
