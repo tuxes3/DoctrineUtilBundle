@@ -68,4 +68,5 @@ Saving a translation in code:
 TODO:
  * Search with language
  * more options in formtype rendering
+ * Use Doctrine caching
  * ...
